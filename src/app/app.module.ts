@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmpleadoComponent } from './componentes/empleado/empleado.component';
+import { ListaEmpleadosComponent } from './componentes/lista-empleados/lista-empleados.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmpleadoComponent
+    EmpleadoComponent,
+    ListaEmpleadosComponent
   ],
   imports: [
     BrowserModule,

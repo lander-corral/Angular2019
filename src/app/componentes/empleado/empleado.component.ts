@@ -9,8 +9,9 @@ import { Empleado } from 'src/app/modelo/empleado';
 export class EmpleadoComponent implements OnInit {
   empleado:Empleado;
   ocultar:boolean = false;
-  constructor() {
-    this.empleado = new Empleado(1, "Juan", "López", "Contabilidad");
+  constructor(id,nombre,apellido,departamento) {
+    //this.empleado = new Empleado(1, "Juan", "López", "Contabilidad");
+    this.empleado = new Empleado(id,nombre,apellido,departamento);
    }
 
   ngOnInit() {
