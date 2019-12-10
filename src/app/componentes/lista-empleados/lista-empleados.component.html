@@ -1,3 +1,4 @@
 <div class="card-columns">
-    <app-empleado *ngFor="let empleado of empleados" [empleado]="empleado"></app-empleado>
+    <app-empleado *ngFor="let empleado of empleados;let i=index" 
+        [empleado]="empleado"></app-empleado>
 </div>

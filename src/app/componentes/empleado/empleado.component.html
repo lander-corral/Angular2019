@@ -1,8 +1,8 @@
-<div class="card text-center" style="width:18rem;">
-  <img src="https://randomuser.me/api/portraits/men/{{empleado.id}}.jpg" class="card-img-top"/>
-  <div class="card-body">
-    <h5 class="card-title">{{empleado.nombreCompleto()}}</h5>
-    <p class="card-text" [hidden]="ocultar">Departamento de {{empleado.departamento}}</p>
-    <a href="#" class="btn btn-primary" (click)="cambiarVisibilidad()">{{ocultar?"Ver Detalles":"Ocultar Detalles"}}</a>
-  </div>
+<div class="card text-center" style="width: 18rem;">
+    <img src="https://randomuser.me/api/portraits/men/{{empleado.id}}.jpg" class="card-img-top mt-2">
+    <div class="card-body">
+        <h5 class="card-title">{{empleado.nombreCompleto()}}</h5>
+        <p [hidden]="ocultar" class="card-text">Departamento de {{empleado.departamento}}</p>
+        <a href="#" class="btn btn-primary" (click)="cambiarVisibilidad()">{{ocultar?"Ver Detalles":"Ocultar Detalles"}}</a>
+    </div>
 </div>

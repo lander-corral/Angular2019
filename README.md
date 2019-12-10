@@ -1,7 +1,7 @@
 # MiApp
 
-Proyecto inicial de configuración de Angular del curso de DWEC
+Proyecto inicial de configuración de Angular del curso de DEWC
 
 ## Objetivos
 
-Aprender el uso de los componentes de Angular, así como el paso de información entre componentes
+Aprender el uso de los componentes en Angular, así como el paso de información entre componentes
