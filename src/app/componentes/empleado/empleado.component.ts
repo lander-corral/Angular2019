@@ -10,7 +10,7 @@ export class EmpleadoComponent implements OnInit {
   @Input() empleado:Empleado;
   @Input() ocultar:boolean = false;
   constructor() { 
-    this.empleado = new Empleado(1,"Juan","López","Contabilidad");
+    this.empleado = new Empleado(1,"Juan","López","Contabilidad","V");
   }
 
   ngOnInit() {

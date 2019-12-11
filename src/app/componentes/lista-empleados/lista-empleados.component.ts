@@ -8,13 +8,12 @@ import { Empleado } from 'src/app/modelo/empleado';
 })
 export class ListaEmpleadosComponent implements OnInit {
   empleados = [];
-
   constructor() { 
-    this.empleados.push(new Empleado(1,"Juan","López","Contabilidad")),
-    this.empleados.push(new Empleado(2,"Ana","Ginés","Administración")),
-    this.empleados.push(new Empleado(3,"Carlos","Sanz","Contabilidad")),
-    this.empleados.push(new Empleado(4,"Marta","Simón","Administración")),
-    this.empleados.push(new Empleado(5,"Miguel","Fernández","Dirección"))
+    this.empleados.push(new Empleado(1,"Juan","López","Contabilidad","V")),
+    this.empleados.push(new Empleado(2,"Ana","Ginés","Administración","M")),
+    this.empleados.push(new Empleado(3,"Carlos","Sanz","Contabilidad","V")),
+    this.empleados.push(new Empleado(4,"Marta","Simón","Administración","M")),
+    this.empleados.push(new Empleado(5,"Miguel","Fernández","Dirección","V"))
   }
 
   ngOnInit() {
